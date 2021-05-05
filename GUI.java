@@ -1,4 +1,9 @@
 
+import java.awt.*;
+import javax.swing.*;
+import javax.swing.JLabel.*;
+import java.awt.Container.*;
+import java.awt.event.*;
 /**
  * Beschreiben Sie hier die Klasse GUI.
  * 
@@ -7,27 +12,33 @@
  */
 public class GUI
 {
-    // Instanzvariablen - ersetzen Sie das folgende Beispiel mit Ihren Variablen
-    private int x;
-
+    private JFrame fenster;
+    
     /**
      * Konstruktor für Objekte der Klasse GUI
      */
     public GUI()
     {
-        // Instanzvariable initialisieren
-        x = 0;
+        fensterErzeugen();
     }
 
-    /**
-     * Ein Beispiel einer Methode - ersetzen Sie diesen Kommentar mit Ihrem eigenen
-     * 
-     * @param  y    ein Beispielparameter für eine Methode
-     * @return        die Summe aus x und y
-     */
-    public int beispielMethode(int y)
-    {
-        // tragen Sie hier den Code ein
-        return x + y;
+    public void fensterErzeugen(){
+        fenster = new JFrame("MallRider");
+        
+        Container contentPane = fenster.getContentPane();
+        contentPane.setLayout(new BorderLayout());
+        
+        JButton start = new JButton("START");
+        
+        
+        contentPane.add(start, BorderLayout.CENTER);
+        
+        
+        fenster.pack();
+        fenster.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        fenster.setSize(600,200);
+        fenster.setVisible(true);
+        fenster.setResizable(false);
+        
     }
 }
