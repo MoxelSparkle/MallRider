@@ -1,14 +1,12 @@
 ------------------------------------------------------------------------
-Dies ist die README-Datei des Projekts. Hier sollten Sie Ihr Projekt
-beschreiben.
-Erzählen Sie dem Leser (jemand, der nichts über dieses Projekt weiss),
-alles, was er/sie wissen muss. Üblicherweise sollte der Kommentar 
-zumindest die folgenden Angaben umfassen:
+Endless-Runner Projekt im Schulischen Rahmen
+
+Gruppe 1, Leistungskurs Informatik, Q2
 ------------------------------------------------------------------------
 
 PROJEKTBEZEICHNUNG:
 PROJEKTZWECK:
 VERSION oder DATUM:
 WIE IST DAS PROJEKT ZU STARTEN:
-AUTOR(EN):
+AUTOR(EN): Jakob Linz, Moritz Rembold, Fabian Turfan, Emma Holtz, Karl Konrad Hanka
 BENUTZERHINWEISE:
