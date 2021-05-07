@@ -28,10 +28,10 @@ public class GUI
         Container contentPane = fenster.getContentPane();
         contentPane.setLayout(new BorderLayout());
         
-        JButton start = new JButton("START");
+        JPanel spiel = new JPanel();
         
         
-        contentPane.add(start, BorderLayout.CENTER);
+        contentPane.add(spiel, BorderLayout.CENTER);
         
         
         fenster.pack();

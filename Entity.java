@@ -1,18 +1,18 @@
-
 /**
- * Tragen Sie hier eine Beschreibung des Interface Entity ein.
+ * Abstrakte Klasse Entity - beschreiben Sie hier die Klasse
  * 
- * @author (Ihr Name) 
- * @version (eine Versionsnummer oder ein Datum)
+ * @author (Ihr Name)
+ * @version (eine Version-Nummer oder ein Datum)
  */
-
-public interface Entity
+public abstract class Entity
 {
-    /**
-     * Ein Beispiel eines Methodenkops - ersetzen Sie diesen Kommentar mit Ihrem eigenen
-     * 
-     * @param  y    ein Beispielparameter für eine Methode
-     * @return        das Ergebnis von beispMethode
-     */
-    int beispielMethode(int y);
+    // Instanzvariablen - ersetzen Sie das folgende Beispiel mit Ihren Variablen
+    protected int xPos;
+    protected int yPos;
+    
+    public int getXPos(){return xPos;}
+    public int getYPos(){return yPos;}
+    
+    public void setXPos(int x){xPos = x;}
+    public void setYPos(int y){yPos = y;}
 }

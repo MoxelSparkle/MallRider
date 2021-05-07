@@ -4,7 +4,7 @@
  * @author (Ihr Name)
  * @version (eine Version-Nummer oder ein Datum)
  */
-public abstract class Hindernis implements Entity
+public abstract class Hindernis extends Entity implements Entity
 {
     // Instanzvariablen - ersetzen Sie das folgende Beispiel mit Ihren Variablen
     private int x;
